@@ -5,6 +5,11 @@ import Hero from './sections/Hero'
 import Category from './sections/Category'
 import Types from './sections/Types'
 import Services from './sections/Services'
+import Productsgrid from './sections/Productsgrid'
+import Banner from './sections/Banner'
+import Review from './sections/Review'
+import Insta from './sections/Insta'
+import Footer from './sections/Footer'
 
 const App = () => {
   return (
@@ -14,6 +19,11 @@ const App = () => {
     <Category />
     <Types/>
     <Services />
+    <Productsgrid />
+    <Banner />
+    <Review />
+    <Insta />
+    <Footer />
 
     </>
   )
