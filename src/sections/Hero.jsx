@@ -41,7 +41,7 @@ const Hero = () => {
                 <div>
                     <div className='w-full lg:px-20 px-5 lg:h-[700px] flex flex-col justify-center items-start gap-10 bg-cover bg-center' style={{ backgroundImage: `url(${earbuds})`}}>
                         <h1 data-aos='zoom-in' data-aos-delay='50' className='text-themeyellow border rounded-lg border-amber-300 px-6 py-2'>Get upto Discounts 80% off.</h1>
-                        <h1 data-aos='zoom-in' data-aos-delay='100' className='text-white lg:text-[120px] text-[60px] uppercase lg:leading-[120px] leading-[70px] font-bold'>DSLR 360<br/>Camera</h1>
+                        <h1 data-aos='zoom-in' data-aos-delay='100' className='text-white lg:text-[120px] text-[60px] uppercase lg:leading-[120px] leading-[70px] font-bold'>Wireless<br/>earbuds</h1>
                         <h1 data-aos='zoom-in' data-aos-delay='100' className='text-white text-2xl'>100% trusted <span className='text-amber-300 font-semibold'>Electronics Gadgets</span></h1>
                         <button data-aos='zoom-in' data-aos-delay='200' className='bg-amber-300 px-5 py-3 rounded-lg text-black font-semibold'>ONLINE COLLECTIONS</button>
                     </div>
@@ -49,7 +49,7 @@ const Hero = () => {
                 <div>
                     <div className='w-full lg:px-20 px-5 lg:h-[700px] flex flex-col justify-center items-start gap-10 bg-cover bg-center' style={{ backgroundImage: `url(${headset})`}}>
                         <h1 data-aos='zoom-in' data-aos-delay='50' className='text-themeyellow border rounded-lg border-amber-300 px-6 py-2'>Get upto Discounts 80% off.</h1>
-                        <h1 data-aos='zoom-in' data-aos-delay='100' className='text-white lg:text-[120px] text-[60px] uppercase lg:leading-[120px] leading-[70px] font-bold'>DSLR 360<br/>Camera</h1>
+                        <h1 data-aos='zoom-in' data-aos-delay='100' className='text-white lg:text-[120px] text-[60px] uppercase lg:leading-[120px] leading-[70px] font-bold'>wireless<br/>headphones</h1>
                         <h1 data-aos='zoom-in' data-aos-delay='100' className='text-white text-2xl'>100% trusted <span className='text-amber-300 font-semibold'>Electronics Gadgets</span></h1>
                         <button data-aos='zoom-in' data-aos-delay='200' className='bg-amber-300 px-5 py-3 rounded-lg text-black font-semibold'>ONLINE COLLECTIONS</button>
                     </div>
