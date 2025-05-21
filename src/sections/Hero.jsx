@@ -13,7 +13,7 @@ const Hero = () => {
         dots: true,
         infinite: true,
         speed: 500,
-        SlidesToShow: 1,
+        slidesToShow: 1,
         slidesToScroll: 1,
         // arrows: false
     };
@@ -32,7 +32,7 @@ const Hero = () => {
             <Slider className='w-full' {...settings}>
                 <div>
                     <div className='w-full lg:px-20 px-5 lg:h-[700px] flex flex-col justify-center items-start gap-10 bg-cover  bg-no-repeat bg-center' style={{ backgroundImage: `url(${dslr})`}}>
-                        <h1 data-aos='zoom-in' data-aos-delay='50' className=''></h1>
+                        <h1 data-aos='zoom-in' data-aos-delay='50' className='text-themeyellow border rounded-lg border-amber-300 px-6 py-2'>Get upto Discounts 80% off.</h1>
                     </div>
                 </div>
             </Slider>

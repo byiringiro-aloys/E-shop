@@ -8,12 +8,4 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
-  theme:{
-    extend:{
-      colors:{
-        themeyellow:"#f5e60d",
-        themepupple: "#502ec3",
-      },
-    },
-  }, 
 })
