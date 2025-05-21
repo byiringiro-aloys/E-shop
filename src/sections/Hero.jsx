@@ -15,7 +15,7 @@ const Hero = () => {
         speed: 500,
         slidesToShow: 1,
         slidesToScroll: 1,
-        // arrows: false
+        arrows: false
     };
 
     useEffect(() => {
@@ -25,14 +25,33 @@ const Hero = () => {
             easing: 'ease-in-out'
         });
         AOS.refresh();
-    })
+    },[])
 
     return (
         <div id='hero' className='w-full flex justify-center items-center lg:h-[700px] h-[600px]'>
             <Slider className='w-full' {...settings}>
                 <div>
-                    <div className='w-full lg:px-20 px-5 lg:h-[700px] flex flex-col justify-center items-start gap-10 bg-cover  bg-no-repeat bg-center' style={{ backgroundImage: `url(${dslr})`}}>
+                    <div className='w-full lg:px-20 px-5 lg:h-[700px] flex flex-col justify-center items-start gap-10 bg-cover bg-center' style={{ backgroundImage: `url(${dslr})`}}>
                         <h1 data-aos='zoom-in' data-aos-delay='50' className='text-themeyellow border rounded-lg border-amber-300 px-6 py-2'>Get upto Discounts 80% off.</h1>
+                        <h1 data-aos='zoom-in' data-aos-delay='100' className='text-white lg:text-[120px] text-[60px] uppercase lg:leading-[120px] leading-[70px] font-bold'>DSLR 360<br/>Camera</h1>
+                        <h1 data-aos='zoom-in' data-aos-delay='100' className='text-white text-2xl'>100% trusted <span className='text-amber-300 font-semibold'>Electronics Gadgets</span></h1>
+                        <button data-aos='zoom-in' data-aos-delay='200' className='bg-amber-300 px-5 py-3 rounded-lg text-black font-semibold'>ONLINE COLLECTIONS</button>
+                    </div>
+                </div>
+                <div>
+                    <div className='w-full lg:px-20 px-5 lg:h-[700px] flex flex-col justify-center items-start gap-10 bg-cover bg-center' style={{ backgroundImage: `url(${earbuds})`}}>
+                        <h1 data-aos='zoom-in' data-aos-delay='50' className='text-themeyellow border rounded-lg border-amber-300 px-6 py-2'>Get upto Discounts 80% off.</h1>
+                        <h1 data-aos='zoom-in' data-aos-delay='100' className='text-white lg:text-[120px] text-[60px] uppercase lg:leading-[120px] leading-[70px] font-bold'>DSLR 360<br/>Camera</h1>
+                        <h1 data-aos='zoom-in' data-aos-delay='100' className='text-white text-2xl'>100% trusted <span className='text-amber-300 font-semibold'>Electronics Gadgets</span></h1>
+                        <button data-aos='zoom-in' data-aos-delay='200' className='bg-amber-300 px-5 py-3 rounded-lg text-black font-semibold'>ONLINE COLLECTIONS</button>
+                    </div>
+                </div>
+                <div>
+                    <div className='w-full lg:px-20 px-5 lg:h-[700px] flex flex-col justify-center items-start gap-10 bg-cover bg-center' style={{ backgroundImage: `url(${headset})`}}>
+                        <h1 data-aos='zoom-in' data-aos-delay='50' className='text-themeyellow border rounded-lg border-amber-300 px-6 py-2'>Get upto Discounts 80% off.</h1>
+                        <h1 data-aos='zoom-in' data-aos-delay='100' className='text-white lg:text-[120px] text-[60px] uppercase lg:leading-[120px] leading-[70px] font-bold'>DSLR 360<br/>Camera</h1>
+                        <h1 data-aos='zoom-in' data-aos-delay='100' className='text-white text-2xl'>100% trusted <span className='text-amber-300 font-semibold'>Electronics Gadgets</span></h1>
+                        <button data-aos='zoom-in' data-aos-delay='200' className='bg-amber-300 px-5 py-3 rounded-lg text-black font-semibold'>ONLINE COLLECTIONS</button>
                     </div>
                 </div>
             </Slider>
